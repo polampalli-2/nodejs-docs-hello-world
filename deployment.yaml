@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: myacr15061.azurecr.io/repo1:latest #$(Build.BuildId)
+        image: myacr15061.azurecr.io/repo1:12 #$(Build.BuildId)
         ports:
         - containerPort: 3000
 ---
